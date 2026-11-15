@@ -1,0 +1,6 @@
+anomaly_id,opportunity_id,anomaly_type,field,invalid_value,description
+ANM-000001,OPP-2026-000001,NEGATIVE_AMOUNT,amount,-50000,Opportunity has a negative deal amount.
+ANM-000002,OPP-2026-000002,INVALID_PROBABILITY,probability,150,Win probability exceeds 100 percent.
+ANM-000003,OPP-2026-000003,CLOSE_DATE_BEFORE_CREATION,expected_close_date,2024-01-01,Expected close date is before opportunity creation.
+ANM-000004,OPP-2026-000004,MISSING_ACCOUNT,account_id,ACC-999999,Opportunity references a nonexistent account.
+ANM-000005,OPP-2026-000005,MIXED_CURRENCY,currency,USD,Currency differs from the baseline INR dataset.

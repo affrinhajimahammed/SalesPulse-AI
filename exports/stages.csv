@@ -1,0 +1,7 @@
+stage_id,name,probability
+STAGE-001,Prospecting,10
+STAGE-002,Qualification,25
+STAGE-003,Proposal,50
+STAGE-004,Negotiation,75
+STAGE-005,Closed Won,100
+STAGE-006,Closed Lost,0
